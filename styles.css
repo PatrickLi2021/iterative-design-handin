@@ -1,0 +1,20 @@
+.iterative-design-pic-container img {
+    width: 30%;
+    height: auto;
+}
+
+.iterative-design-pic-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.lofi-community-container img,
+.lofi-profile-container img,
+.lofi-publish-container img,
+.refined-lofi-community-container img,
+.refined-lofi-profile-container img,
+.refined-lofi-publish-container img {
+    width: 95%;
+    height: auto;
+}
