@@ -14,7 +14,10 @@
 .lofi-publish-container img,
 .refined-lofi-community-container img,
 .refined-lofi-profile-container img,
-.refined-lofi-publish-container img {
+.refined-lofi-publish-container img,
+.hifi-community-container img,
+.hifi-profile-container img,
+.hifi-publish-container img {
     width: 95%;
     height: auto;
 }
