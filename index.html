@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iterative Design</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
 </head>
 
 <body>
     <div class="container">
         <div class="top-headers">
-            <h1 class="title">Iterative Design</h1>
+            <div class="title">
+                <h1 class="title">Iterative Design</h1>
+            </div>
             <h2>Allowing Warp Users to Connect, Share Tools, and Build Community
             </h2>
         </div>
@@ -19,7 +22,7 @@
         </div>
         <hr class="horizontal-line">
         <h1>Project Overview</h1>
-        <p>For this project, we worked in a group of 4 to brainstorm, design, and construct an interactive prototype for Warp, a terminal reimagined with Ai and collaborative tools for better productivity. This project was divided into 7 distinct phases:</p>
+        <p>For this project, we worked in a group of 4 to brainstorm, design, and construct an interactive prototype for Warp, a terminal reimagined with AI and collaborative tools for better productivity. This project was divided into 7 distinct phases:</p>
 
         <ol>
             <li>Identifying and understanding the problem at hand</li>
@@ -67,11 +70,12 @@
 
         <hr class="horizontal-line">
         <h1>Part 4: Studio Critique and Mid-Project Check In</h1>
-        <p>After presenting our low-fidelity wireframes to the client and receiving feedback from both them and our classmates in studio, we decide to make the following changes to our wireframes. Firstly, we wanted to incorporate the same profile view that
-            is visible from opening Warp Drive into the community page. Another piece of feedback that we received was to add options for a user to install, uninstall, and rate a tool. Lastly, the client provided shared that a side-by-side vertical view
-            for the community page would be more intuitive and user-friendly. </p>
+        <h2>Client Feedback</h2>
+        <p>After presenting our low-fidelity wireframes to the client and receiving feedback from both them and our classmates in studio, we decided to make the following changes to our wireframes. Firstly, we wanted to incorporate the same profile view
+            that is visible from opening Warp Drive into the community page. Another piece of feedback that we received was to add options for a user to install, uninstall, and rate a tool. Lastly, the client provided shared that a side-by-side vertical
+            view for the community page would be more intuitive and user-friendly. </p>
 
-        <br>
+        <h2>Peer Feedback</h2>
         <p>Some suggestions from the critique session that we decided not to incorporate into our revised wireframes were including a feature to search for particular users. We believe that the Warp Community page should primarily be focused on the tools
             that users create rather than the actual users themselves. Additionally, there were some suggestions about removing the profile section of the interface, as it may discourage new users from trying the app. However, ultimately, we decided that
             a profile page would be something that is already familiar to a large percentage of users and it is a clean way to aggregate a list of tools for the user and others to view.</p>
@@ -97,24 +101,52 @@
         <h1>Part 6: High-Fidelity Prototyping</h1>
         <p>After updating our low-fidelity wireframes, we were ready to move onto creating the high-fidelity prototypes. However, before doing so, we created a visual design style guide inspired by the rough style guide/brand kit provided by Warp. This allowed
             our group to understand the visual language intended by the client as well as create coherent designs.</p>
+        <h2>Visual Design Style Guide:</h2>
+        <div class="style-guide-container">
+            <img src="assets/design_guide.png" alt="visual design style guide">
+        </div>
+        <h2>Decisions for Style Guide</h2>
+        <p>When creating the style guide, we wanted to maintain as much uniformity with the existing brand manual kit provided to us by Warp. For that reason, the color of the dropdown menu and filter options use the same green in their style guide. The
+            primary colors used by them in their terminal are black and white, so we decided to keep our primary colors the same. We believe that Warp decide to use these colors to make their interface have high contrast, so that users can more easily
+            read text quickly and accurately. Also, developers could be using the Warp terminal for long periods of time, and having natural colors such as black and white could ease eye strain as opposed to more vibrant colors. </p>
 
-        <h3>High-Fidelity Prototype for Community Page Flow</h3>
-        <div class="hifi-community-container">
-            <img src="assets/hifi_publish.png" alt="hifi wireframes for the community page flow">
-        </div>
-        <h3>High-Fidelity Prototype for Profile Page Flow</h3>
-        <div class="hifi-profile-container">
-            <img src="assets/hifi_profile.png" alt="hifi wireframes for the profile page flow">
-        </div>
-        <h3>High-Fidelity Prototype for Publish Page Flow</h3>
-        <div class="hifi-publish-container">
-            <img src="assets/hifi_publish_1.png" alt="first section of hifi wireframes for publishing a tool">
-            <img src="assets/hifi_publish_2.png" alt="second section of hifi wireframes for publishing a tool">
-        </div>
+        <p>Additionally, when creating all the icons needed for our hifi prototypes, we made sure to use the same icons that were already present in their interface. We believe that their icon choice follows most online platforms, with icons such as the
+            gear and magnifying glass representing settings and search respectively, for example. Some suggestions for improving the Warp style guide could be to include more details/guidelines about spacing in certain pages as well as displaying more
+            combinations of text on certain color backgrounds to examine how we should maximize contrast for certain features.</p>
 
+        <h2>High-Fidelity Prototypes and Design Choices</h2>
+        <p>We've divided our design choices into 3 sections, one for each major flow we designed as part of our solution:</p>
+        <ul>
+            <li><b>Community Page: </b></li>
+            <p>For the community page, we wanted to first ensure clear navigation to the page without making any significant changes to the homepage. To do this, we added a globe icon in the top right to signal to users that this is the place where they
+                can interact with other Warp users and share tools. Upon opening the community page, we wanted to make this page as similar as possible to other popular community pages (using the design principle of familiar layouts), such as in Figma.
+                Users can see a list of tools that have been published from the users that they follow as well as explore tools in general. They also have the ability to search for specific tools that they need via a search bar and filter down categories
+                of tools that they would like. This supports the idea of content discovery and increases user engagement.</p>
+            <li><b>Profile Flow: </b></li>
+            <p>For the profile flow, the main information that we wanted to convey include the number of total tool downloads, number of total likes on tools, as well as the number of users that this person is following and how many users are following this
+                user. We wanted to make the profile similar to many other social networks, such as Instagram or Facebook for ease of user. We also felt like the idea of a profile card with the option to edit the profile is something that is already familiar
+                to many users. We also wanted to make the user's own published tools to be visible on their profile and give them the ability to sort and filter just like in the community page. The reason why we wanted to include this profile page on
+                the left was because Warp's Personal tab is already located on this side so we wanted to make all personal elements on the same side of the interface.</p>
+            <li><b>Publishing Flow: </b></li>
+            <p>Lastly, for the publishing flow, we wanted to utilize the same design principles as before and create an additional option for the user to engage with their tool without creating a completely new flow from scratch. We added a "Publish" option
+                to the existing dropdown menu for each tool, which opened a new modal for the user to edit and eventually publish. Throughout this flow, we used the same colors and modal design as in previous modals in Warp for creating a tool and we
+                added a confirmation page at the end of the process so that the user receives immediate feedback and aassurance about their action. </p>
+        </ul>
+        <p>The link to our Figma file containing our high-fidelity prototypes is provided here: <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">High-Fidelity Prototypes</a></p>
 
         <hr class="horizontal-line">
-        <h1>Final Founder Feedback and Conclusion:</h1>
+        <h1>Part 7: Final Founder Feedback and Conclusion:</h1>
+        <p>At the very end, we met with the client from Warp to share our progress and display our final prototypes. Overall, we received positive feedback but there were a few items of feedback that we aim to implement in our refined designs:</p>
+        <ol>
+            <li>
+                <p><b>Efficiency of Space: </b> There is some inconsistency in regards to spacing for items in the community tab. Some tags are a little too far apart and the widgets containing each tool could be made shorter</p>
+            </li>
+            <li>
+                <p><b>Integration of Profile into Community: </b> Another piece of feedback that we received is about the possibility of moving the profile page into the community tab. Since the community tab is a secondary experience and not the main focus
+                    of Warp, this could create a more centralized user experience and streamlined user flow.</p>
+            </li>
+        </ol>
+
         <p>In the end, we presented our final high-fidelity prototypes to our designer and received positive feedback. It was a great experience to engage with the full iterative design process with a unique company that presented an interesting challenge
             for us. This project also gave us a good opportunity to practice building collaborative designs with a team that mirror cross-functional teams in industry.</p>
     </div>

@@ -3,10 +3,25 @@
     height: auto;
 }
 
-.iterative-design-pic-container {
+.iterative-design-pic-container,
+.style-guide-container {
     display: flex;
     align-content: center;
     justify-content: center;
+    padding: 1%;
+}
+
+.iterative-design-pic-container img {
+    width: 35%;
+    height: auto;
+}
+
+.top-headers {
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .lofi-community-container img,
@@ -20,4 +35,37 @@
 .hifi-publish-container img {
     width: 95%;
     height: auto;
+}
+
+.style-guide-container img {
+    width: 70%;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol li,
+ul li {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 3%;
+    background-color: rgb(211, 236, 247);
+}
+
+.title h1 {
+    font-size: 40px;
 }
