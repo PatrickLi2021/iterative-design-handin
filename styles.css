@@ -24,6 +24,66 @@
     text-align: center;
 }
 
+.sketch-1-outer-container {
+    flex-direction: row;
+    display: flex;
+}
+
+.sketch-1-inner-container img {
+    width: 70%;
+    height: auto;
+}
+
+.sketch-2-flow-1-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sketch-2-flow-1-1-container img {
+    width: 40%;
+    height: auto;
+    padding: 1%;
+}
+
+.sketch-2-flow-1-2-container img,
+.sketch-2-flow-1-3-container img {
+    width: 70%;
+    height: auto;
+    padding: 1%;
+}
+
+.sketch-2-flow-2-container img {
+    width: 70%;
+    height: auto;
+    padding: 1%;
+}
+
+.sketch-3-flow-1-container img {
+    width: 70%;
+    height: auto;
+    padding: 1%;
+}
+
+.sketch-3-flow-2-container img {
+    width: 70%;
+    height: auto;
+    padding: 1%;
+}
+
+.sketch-4-outer-container {
+    flex-direction: row;
+    display: flex;
+}
+
+.sketch-4-inner-container img {
+    width: 100%;
+    height: auto;
+}
+
+.sketch-4-inner-container {
+    margin: 2%;
+}
+
 .lofi-community-container img,
 .lofi-profile-container img,
 .lofi-publish-container img,
