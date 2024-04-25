@@ -1,252 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iterative Design</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <div class="top-headers">
-        <div class="title">
-          <h1 class="title">Iterative Design</h1>
+        <div class="top-headers">
+            <div class="title">
+                <h1 class="title">Iterative Design</h1>
+            </div>
+            <h2>
+                Allowing Warp Users to Connect, Share Tools, and Build Community
+            </h2>
         </div>
-        <h2>
-          Allowing Warp Users to Connect, Share Tools, and Build Community
-        </h2>
-      </div>
-      <div class="iterative-design-pic-container">
-        <img src="assets/hifi.png" alt="Picture of high-fidelity wireframes" />
-      </div>
-      <hr class="horizontal-line" />
-      <h1>Project Overview</h1>
-      <p>
-        For this project, we worked in a group of 4 to brainstorm, design, and
-        construct an interactive prototype for Warp, a terminal reimagined with
-        AI and collaborative tools for better productivity. This project was
-        divided into 7 distinct phases:
-      </p>
+        <div class="iterative-design-pic-container">
+            <img src="assets/hifi.png" alt="Picture of high-fidelity wireframes" />
+        </div>
+        <hr class="horizontal-line" />
+        <h1>Project Overview</h1>
+        <p>
+            For this project, we worked in a group of 4 to brainstorm, design, and construct an interactive prototype for Warp, a terminal reimagined with AI and collaborative tools for better productivity. This project was divided into 7 distinct phases:
+        </p>
+        <hr class="horizontal-line" />
+        <h1>Understanding and Clarifying the Problem</h1>
+        <p>
+            For this project, the main problem that we needed to address was that in Warp today, there is no place in the product to connect with other users, share tools, or install extensions. The two main target groups that are affected by this problem are the
+            <b>creator</b>, who falls under the persona of an experienced developer that enjoys making and sharing tools for others to use, and the <b>consumer</b>, who is looking for a tool to help get a particular task done. Our hope is to introduce
+            several features that allow users to find tools without having to leave the interface as well as grow their career/personal brands and learn more about particular tools or methodologies.
+        </p>
+        <hr class="horizontal-line">
+        <h1>Part 1: Sketching</h1>
+        <p>In this phase, each member of our group created 2 different end-to-end flows for solving our startup's problem.</p>
+        <div class="sketch-1-outer-container">
+            <div class="sketch-1-inner-container">
+                <h2>Sketch 1: Flow 1</h2>
+                <img src="assets/alex_sketch_flow_1.png" alt="sketch of solution flow">
+            </div>
+            <div class="sketch-1-inner-container">
+                <h2>Sketch 1: Flow 2</h2>
+                <img src="assets/alex_sketch_flow_2.png" alt="sketch of solution flow">
+            </div>
+        </div>
+        <h2>Sketch 2: Flow 1</h2>
+        <div class="sketch-2-flow-1-container">
+            <div class="sketch-2-flow-1-1-container"><img src="assets/angela_sketch_flow_1.1.png" alt="sketch of solution flow"></div>
+            <div class="sketch-2-flow-1-2-container"><img src="assets/angela_sketch_flow_1.2.png" alt="sketch of solution flow"></div>
+            <div class="sketch-2-flow-1-3-container"><img src="assets/angela_sketch_flow_1.3.png" alt="sketch of solution flow"></div>
+        </div>
+        <h2>Sketch 2: Flow 2</h2>
+        <div class="sketch-2-flow-2-container">
+            <img src="assets/angela_sketch_flow_2.png" alt="sketch of solution flow">
+        </div>
+        <h2>Sketch 3: Flow 1</h2>
+        <div class="sketch-3-flow-1-container">
+            <img src="assets/patrick_sketch_flow_1.1.png" alt="sketch of solution flow">
+            <img src="assets/patrick_sketch_flow_1.2.png" alt="sketch of solution flow">
+        </div>
+        <h2>Sketch 3: Flow 2</h2>
+        <div class="sketch-3-flow-2-container">
+            <img src="assets/patrick_sketch_flow_2.png" alt="sketch of solution flow">
+        </div>
+        <div class="sketch-4-outer-container">
+            <div class="sketch-4-inner-container">
+                <h2>Sketch 4: Flow 1</h2>
+                <img src="assets/jen_sketch_flow_1.png" alt="sketch of solution flow">
+            </div>
+            <div class="sketch-4-inner-container">
+                <h2>Sketch 4: Flow 2</h2>
+                <img src="assets/jen_sketch_flow_2.png" alt="sketch of solution flow">
+            </div>
+        </div>
+        <hr class="horizontal-line" />
+        <h1>Part 2: First Iteration (Low-Fidelity) Wireframing</h1>
+        <p>
+            The main design decisions that led to this final design included maximizing whitespace, while keeping the terminal visible since the main users are engineers who tend to prefer having multiple components open (Drive, AI, etc). In addition to these, another
+            big focus was on ensuring alignment and visual hierarchy since each component had limited space due to the terminal needing to stay in view. So, while having lots of information visible, we needed to ensure the user still found the component
+            organized and easy to navigate.
+        </p>
 
-      <ol>
-        <li>Identifying and understanding the problem at hand</li>
-        <li>
-          Sketching preliminary ideas individually about a potential solution
-        </li>
-        <li>Finalizing a low-fidelity wireframe</li>
-        <li>
-          Participating in a peer critique and revising the prototype based on
-          feedback received
-        </li>
-        <li>Creating and refining a style guide</li>
-        <li>Developing a final, clickable, high-fidelity prototype</li>
-        <li>
-          Presenting the final prototype to the client and receiving feedback
-        </li>
-      </ol>
-      <hr class="horizontal-line" />
-      <h1>Part 1: Understanding and Clarifying the Problem</h1>
-      <p>
-        For this project, the main problem that we needed to address was that in
-        Warp today, there is no place in the product to connect with other
-        users, share tools, or install extensions. The two main target groups
-        that are affected by this problem are the <b>creator</b>, who falls
-        under the persona of an experienced developer that enjoys making and
-        sharing tools for others to use, and the <b>consumer</b>, who is looking
-        for a tool to help get a particular task done. Our hope is to introduce
-        several features that allow users to find tools without having to leave
-        the interface as well as grow their career/personal brands and learn
-        more about particular tools or methodologies.
-      </p>
+        <p>
+            For the low-fidelity wireframing phase, our group convened to discuss which parts of the sketches best address different needs of the client. We eventually came to an agreement on 3 main features:
+        </p>
 
-      <hr class="horizontal-line" />
-      <h1>Part 2: Sketching</h1>
-      <p>
-        In this phase, each member of our group created 2 different end-to-end
-        flows for solving our startup's problem.
-      </p>
-      <h2>Sketch 1: Flow 1</h2>
-      <div class="sketch-container">
-        <img
-          src="assets/alex_sketch_flow_1.png"
-          alt="sketch of solution flow"
-        />
-      </div>
-      <h2>Sketch 1: Flow 2</h2>
-      <div class="sketch-container">
-        <img
-          src="assets/alex_sketch_flow_2.png"
-          alt="sketch of solution flow"
-        />
-      </div>
-      <h2>Sketch 2: Flow 1</h2>
-      <div class="sketch-container">
-        <img
-          src="assets/angela_sketch_flow_1.1.png"
-          alt="sketch of solution flow"
-        />
-        <img
-          src="assets/angela_sketch_flow_1.2.png"
-          alt="sketch of solution flow"
-        />
-        <img
-          src="assets/angela_sketch_flow_1.3.png"
-          alt="sketch of solution flow"
-        />
-      </div>
-      <h2>Sketch 2: Flow 2</h2>
-      <div class="sketch-container">
-        <img
-          src="assets/angela_sketch_flow_2.png"
-          alt="sketch of solution flow"
-        />
-      </div>
-      <h2>Sketch 3: Flow 1</h2>
-      <div class="sketch-container">
-        <img
-          src="assets/patrick_sketch_flow_1.1.png"
-          alt="sketch of solution flow"
-        />
-        <img
-          src="assets/patrick_sketch_flow_1.2.png"
-          alt="sketch of solution flow"
-        />
-      </div>
-      <h2>Sketch 3: Flow 2</h2>
-      <div class="sketch-container">
-        <img
-          src="assets/patrick_sketch_flow_2.png"
-          alt="sketch of solution flow"
-        />
-      </div>
-      <h2>Sketch 4: Flow 1</h2>
-      <div class="sketch-container">
-        <img src="assets/hifi.png" alt="sketch of solution flow" />
-      </div>
-      <h2>Sketch 4: Flow 2</h2>
-      <div class="sketch-container">
-        <img src="assets/hifi.png" alt="sketch of solution flow" />
-      </div>
+        <ul>
+            <li>A new community page</li>
+            <li>Enhanced user profiles</li>
+            <li>Ability to publish a tool from the existing Warp Drive</li>
+        </ul>
 
-      <hr class="horizontal-line" />
-      <h1>Part 3: First Iteration (Low-Fidelity) Wireframing</h1>
-      <p>
-        The main design decisions that led to this final design included
-        maximizing whitespace, while keeping the terminal visible since the main
-        users are engineers who tend to prefer having multiple components open
-        (Drive, AI, etc). In addition to these, another big focus was on
-        ensuring alignment and visual hierarchy since each component had limited
-        space due to the terminal needing to stay in view. So, while having lots
-        of information visible, we needed to ensure the user still found the
-        component organized and easy to navigate.
-      </p>
+        <p>
+            In the process of creating these low-fidelity wireframes, we utilized several components from different sketches.
+        </p>
 
-      <p>
-        For the low-fidelity wireframing phase, our group convened to discuss
-        which parts of the sketches best address different needs of the client.
-        We eventually came to an agreement on 3 main features:
-      </p>
-
-      <ul>
-        <li>A new community page</li>
-        <li>Enhanced user profiles</li>
-        <li>Ability to publish a tool from the existing Warp Drive</li>
-      </ul>
-
-      <p>
-        In the process of creating these low-fidelity wireframes, we utilized
-        several components from different sketches.
-      </p>
-
-      <ul>
-        <li>
-          For the community feature, we incorporated:
-          <ul>
+        <ul>
             <li>
-              Sketch 1, flow 1's horizontal community layout because enabling
-              the user to see the search results from community while Warp AI
-              was simultaneously open, increased usability
-            </li>
-          </ul>
-        </li>
-        <li>
-          For the profile feautre, we incporated:
-          <ul>
-            <li>
-              Sketch 2, flow 1's profile content, such as bio,
-              followers/following, and published tools because this encourages
-              the user to explore/post on community while connecting the 2
-              features
-            </li>
-          </ul>
-        </li>
-        <li>
-          For the publish tool feature, we incorporated:
-          <ul>
-            <li>
-              Sketch 3, flow 2's origin point from Warp drive because it's
-              intuitive for the user to publish from the same place once they
-              create their tool (effectively starting and finishing the
-              end-to-end-flow of tool creation to publication in the same
-              location in Warp)
+                For the community feature, we incorporated:
+                <ul>
+                    <li>
+                        Sketch 1, flow 1's horizontal community layout because enabling the user to see the search results from community while Warp AI was simultaneously open, increased usability
+                    </li>
+                </ul>
             </li>
             <li>
-              Sketch 3, flow 1's publish modal layout because we wanted the user
-              to be able to see the contents of their Warp drive as they publish
-              a tool
+                For the profile feautre, we incporated:
+                <ul>
+                    <li>
+                        Sketch 2, flow 1's profile content, such as bio, followers/following, and published tools because this encourages the user to explore/post on community while connecting the 2 features
+                    </li>
+                </ul>
             </li>
-          </ul>
-        </li>
-      </ul>
+            <li>
+                For the publish tool feature, we incorporated:
+                <ul>
+                    <li>
+                        Sketch 3, flow 2's origin point from Warp drive because it's intuitive for the user to publish from the same place once they create their tool (effectively starting and finishing the end-to-end-flow of tool creation to publication in the same location
+                        in Warp)
+                    </li>
+                    <li>
+                        Sketch 3, flow 1's publish modal layout because we wanted the user to be able to see the contents of their Warp drive as they publish a tool
+                    </li>
+                </ul>
+            </li>
+        </ul>
 
-      <p>
-        We felt that these 3 main features led to our intended impact of
-        allowing users to connect with other users, share their created tools to
-        the community, and install tools from others in the community.
-        Specifically, the new community page and ability to publish a tool from
-        Warp Drive enables the sharing and downloading of tools within Warp
-        community - useful to both creators and consumers. Then, the enhanced
-        user profile allows users to follow other users, building their
-        connections within Warp. In total, these 3 components accomplish the
-        usability features we intended to create through this design.
-      </p>
+        <p>
+            We felt that these 3 main features led to our intended impact of allowing users to connect with other users, share their created tools to the community, and install tools from others in the community. Specifically, the new community page and ability to
+            publish a tool from Warp Drive enables the sharing and downloading of tools within Warp community - useful to both creators and consumers. Then, the enhanced user profile allows users to follow other users, building their connections within
+            Warp. In total, these 3 components accomplish the usability features we intended to create through this design.
+        </p>
 
-      <p>
-        Below, we have displayed the low-fidelity wireframes for each of these 3
-        main flows:
-      </p>
+        <p>
+            Below, we have displayed the low-fidelity wireframes for each of these 3 main flows:
+        </p>
 
-      <h3>Community Page Flow</h3>
-      <div class="lofi-community-container">
-        <img
-          src="assets/lofi_community.png"
-          alt="initial wireframes for the community page flow"
-        />
-      </div>
-      <h3>Profile Page Flow</h3>
-      <div class="lofi-profile-container">
-        <img
-          src="assets/lofi_profile.png"
-          alt="initial wireframes for the profile page flow"
-        />
-      </div>
-      <h3>Publishing a Tool Flow</h3>
-      <div class="lofi-publish-container">
-        <img
-          src="assets/lofi_publish.png"
-          alt="initial wireframes for the publishing flow"
-        />
-      </div>
+        <h3>Community Page Flow</h3>
+        <div class="lofi-community-container">
+            <img src="assets/lofi_community.png" alt="initial wireframes for the community page flow" />
+        </div>
+        <h3>Profile Page Flow</h3>
+        <div class="lofi-profile-container">
+            <img src="assets/lofi_profile.png" alt="initial wireframes for the profile page flow" />
+        </div>
+        <h3>Publishing a Tool Flow</h3>
+        <div class="lofi-publish-container">
+            <img src="assets/lofi_publish.png" alt="initial wireframes for the publishing flow" />
+        </div>
 
-      <hr class="horizontal-line" />
-      <h1>Part 4: Studio Critique and Mid-Project Check In</h1>
-      <p>
-        The link to our initial Loom walking through our low-fidelity wireframes
-        is provided here:
-        <a
-          href="https://www.loom.com/share/e52c85d8d69d411aa359edeeae980c03?sid=31de884f-2107-43a3-a6ad-d8e749cd9d16"
-          >Loom for Low-Fidelity Wireframes</a
+        <hr class="horizontal-line" />
+        <h1>Part 3: Studio Critique and Mid-Project Check In</h1>
+        <p>
+            The link to our initial Loom walking through our low-fidelity wireframes is provided here:
+            <a href="https://www.loom.com/share/e52c85d8d69d411aa359edeeae980c03?sid=31de884f-2107-43a3-a6ad-d8e749cd9d16">Loom for Low-Fidelity Wireframes</a
         >
       </p>
       <h2>Client Feedback</h2>
@@ -265,23 +174,12 @@
       <p>
         From studio, after hearing that it would be difficult for users to
         generate their own tags when publishing tools, we changed the publish
-        modal to include some auto-generated tags. On the other hand, some
-        suggestions from the critique session that we decided not to incorporate
-        into our revised wireframes were including a feature to search for
-        particular users. We believe that the Warp Community page should
-        primarily be focused on the tools that users create rather than the
-        actual users themselves. Furthermore, users would be able to search
-        through their following/followers list for users, encouraging users to
-        build their connections on Warp. Additionally, there were some
-        suggestions about removing the profile section of the interface, as it
-        may discourage new users from trying the app. However, ultimately, we
-        decided that a profile page would be something that is already familiar
-        to a large percentage of users and it is a clean way to aggregate a list
-        of tools for the user and others to view.
+        modal to include some auto-generated tags. Another suggestion that was made was to include a feature to search for other users on Warp. 
+        Additionally, there were some comments about removing the profile section of the interface, as it may discourage new users from trying the app. 
       </p>
 
       <hr class="horizontal-line" />
-      <h1>Part 5: Updating Low-Fidelity Wireframes</h1>
+      <h1>Part 4: Updating Low-Fidelity Wireframes</h1>
       <p>
         The main updates we made included were moving from a horizontal
         community view to a vertical view because we decided it was important to
@@ -293,6 +191,13 @@
         what they are looking for, since tools can span many categories and are
         very broad.
       </p>
+      <p>After hearing the feedback about removing the profile page, we ultimately decided that a profile page would be something that is already familiar
+        to a large percentage of users and it is a clean way to aggregate a list of tools for the user and others to view. We also decided not to incorporate the feature to search for
+        particular users. We believe that the Warp Community page should
+        primarily be focused on the tools that users create rather than the
+        actual users themselves. Furthermore, users would be able to search
+        through their following/followers list for users, encouraging users to
+        build their connections on Warp.</p>
       <p>
         After implementing the changes from the previous phase, our refined
         low-fidelity wireframes looked like the following:
@@ -321,7 +226,7 @@
       </div>
 
       <hr class="horizontal-line" />
-      <h1>Part 6: High-Fidelity Prototyping</h1>
+      <h1>Part 5: High-Fidelity Prototyping</h1>
       <p>
         After updating our low-fidelity wireframes, we were ready to move onto
         creating the high-fidelity prototypes. However, before doing so, we
@@ -362,7 +267,10 @@
       <p>
         We also want to note that while some text on the green background is low
         contrast (from WCAG AA guidelines for accessibility), we wanted to stay
-        consistent with the existing visual style guide.
+        consistent with the existing visual style guide. In terms of typography and font, we maintained consistent 
+        heading sizes and font types (some fonts were not available in Figma, so we picked ones that were as similar 
+        as possible) for text in our frames and colored them to make it easier for the users to recognize certain buttons
+        and items.
       </p>
 
       <h2>High-Fidelity Prototypes and Design Choices</h2>
@@ -432,7 +340,7 @@
       </p>
 
       <hr class="horizontal-line" />
-      <h1>Part 7: Final Founder Feedback and Conclusion:</h1>
+      <h1>Part 6: Final Founder Feedback and Conclusion:</h1>
       <p>
         At the very end, we met with the client from Warp to share our progress
         and display our final prototypes. Overall, we received positive feedback
